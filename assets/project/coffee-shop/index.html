@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robert's Coffee Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+  <header class="navbar">
+    <div class="logo-wrap">
+      <div class="logo-circle">☕</div>
+      <div>
+        <h1 class="brand-title">Robert's Coffee Shop</h1>
+        <p class="brand-subtitle">Fresh drinks • Cozy vibes • Sweet code</p>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="order.php">Order</a>
+      <a href="customers.php">Customers</a>
+      <a href="login.php">Staff Login</a>
+    </nav>
+  </header>
+
+  <!-- =========================
+       HERO SECTION
+  ========================== -->
+  <main class="container">
+    <section class="hero hero-fancy">
+      <div class="hero-text">
+        <span class="hero-tag">✨ Student PHP Website Project</span>
+        <h2>Welcome to Robert’s Coffee Shop</h2>
+        <p>
+          A cozy little café website built with
+          <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>PHP</b>.
+          Explore the menu, place an order, search customers, and log in to the staff area.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn" href="order.php">☕ Order a Drink</a>
+          <a class="btn btn-outline" href="customers.php">👥 View Customers</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="coffee-cup">
+          <div class="cup-lid"></div>
+          <div class="cup-body">☕</div>
+          <div class="cup-shadow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         FEATURE CARDS
+    ========================== -->
+    <section class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🧾</div>
+        <h3>Place an Order</h3>
+        <p>
+          Fill out the coffee order form, choose a size, pick iced or hot,
+          and get a receipt with the total.
+        </p>
+        <a class="btn small-btn" href="order.php">Go to Order Page</a>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">👥</div>
+        <h3>Search Customers</h3>
+        <p>
+          Browse the customer list and search by customer name or favorite drink
+          using a PHP GET filter.
+        </p>
+        <a class="btn small-btn" href="customers.php">Go to Customers</a>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔐</div>
+        <h3>Staff Login</h3>
+        <p>
+          Log in with the staff demo account to access the secret staff page
+          protected with PHP sessions.
+        </p>
+        <a class="btn small-btn" href="login.php">Go to Login</a>
+      </div>
+    </section>
+
+    <!-- =========================
+         MINI ABOUT / SKILLS SECTION
+    ========================== -->
+    <section class="info-panel">
+      <div class="info-text">
+        <h3>What this website teaches</h3>
+        <ul class="pretty-list">
+          <li>Using <b>HTML</b> to structure pages</li>
+          <li>Using <b>CSS</b> to style a real website</li>
+          <li>Using <b>JavaScript</b> for interactivity</li>
+          <li>Using <b>PHP</b> for forms, sessions, and protected pages</li>
+        </ul>
+      </div>
+
+      <div class="info-badges">
+        <span class="skill-pill">HTML</span>
+        <span class="skill-pill">CSS</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">PHP</span>
+        <span class="skill-pill">Forms</span>
+        <span class="skill-pill">Sessions</span>
+      </div>
+    </section>
+
+    <!-- =========================
+         CALL TO ACTION
+    ========================== -->
+    <section class="cta-banner">
+      <div>
+        <h3>Ready to build your order?</h3>
+        <p>Start with the order page and test the coffee receipt system.</p>
+      </div>
+      <a class="btn" href="order.php">Start Ordering</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>☕ Robert’s Coffee Shop • Built for iCode Orange Belt</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
